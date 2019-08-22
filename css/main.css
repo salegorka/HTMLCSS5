@@ -1,0 +1,135 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background-color: #445162;
+  padding: 50px 50px 55px 50px;
+  box-sizing: border-box;
+}
+
+.header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header-wrap {
+  float: left;
+}
+
+.header1 {
+  font: 300 45px "Arial";
+  line-height: 45px;
+  color: #fff;
+  margin: 0 0 45px 0;
+}
+
+.header-list {
+  font: 300 17px "Arial";
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header-list li {
+  padding: 0 0 13px 0;
+}
+
+.header-list li:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  min-height: 19px;
+  background-image: url(img/checkicon.png);
+  margin: 0 11px 0 0;
+}
+
+.header-img {
+  float: right;
+}
+
+.about-product {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 50px 50px 50px;
+  box-sizing: border-box;
+}
+
+.about-product:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about-product-wrapper {
+  width: 650px;
+  float: left;
+}
+
+.header2 {
+  font: 500 30px "Arial";
+  color: #445162;
+  margin: 0 0 32px 0;
+}
+
+.about-product-text {
+  text-align: left;
+  font: 500 16px "Arial";
+  color: #333;
+}
+
+.about-product-video {
+  float: right;
+}
+
+.product-pluses {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 50px 50px 50px 50px;
+  box-sizing: border-box;
+}
+
+.product-pluses:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.pluses-header {
+  font: 500 30px "Arial";
+  color: #445162;
+  width: 360px;
+  margin: 0 auto 30px auto;
+}
+
+.pluses-list {
+  list-style-type: none;
+  font: 500 16px "Arial";
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.pluses-list li {
+  width: 570px;
+  text-align: left;
+  display: block;
+  float: left;
+  margin: 0 18px 33px 0;
+}
+
+.pluses-list li:before {
+  content: "";
+  display: block;
+  float: left;
+  width: 32px;
+  height: 60px;
+  background-image: url(img/plusicon.jpg);
+  background-repeat: no-repeat;
+  margin: 0 10px 0 0;
+}
+

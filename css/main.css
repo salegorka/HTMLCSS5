@@ -230,3 +230,76 @@
   font: 400 14px/18px "Arial";
   color: #989898;
 }
+
+.buy {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.buy-header {
+  width: 100%;
+  text-align: center;
+  font: 400 30px/36px "Arial";
+  color: #445161;
+}
+
+.buy-wraper {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.buy-standart {
+  width: 300px;
+  background-color: #445162;
+}
+
+.buy-premium {
+  width: 300px;
+  background-color: #445162;
+}
+
+.buy-lux {
+  width: 300px;
+  background-color: #445162;
+}
+
+.header-buy {
+  width: 100%;
+  text-align: center;
+  font: 400 24px/30px "Arial";
+  color: #fff;
+  margin: 0;
+}
+
+.price {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font: 400 40px/30px "Arial";
+  color: #445162;
+  background-color: #fff;
+  margin: 0;
+}
+
+.buy-list-options {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  font: 400 14px/24px "Arial";
+  color: #fff;
+}
+
+.buy-button {
+  display: block;
+  background-color: #fff;
+  font: 700 18px/18px "Arial";
+  text-transform: uppercase;
+  color: #445162;
+  width: 260px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 12px 0;
+  margin: 0 auto;
+}

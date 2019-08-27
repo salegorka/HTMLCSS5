@@ -235,7 +235,7 @@
   width: 100%;
   padding: 50px;
   box-sizing: border-box;
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 
 .buy-header {
@@ -328,49 +328,90 @@
   background-color: #445162;
 }
 
+.contacts::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .footer-header {
   width: 100%;
   text-align: center;
-  margin: 0;
+  margin: 0 0 30px 0;
   padding: 0;
   font: 400 30px/36px "Arial";
   color: #fff;
 }
 
-.contatcs-wrapper {
-  
-}
-
 .contacts-form {
   width: 500px;
-  border: 1px solid black;
+  margin: 0 0 0 200px;
+  float: left;
 }
 
 .contacts-input-name {
-  
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 5px 10px 5px 10px;
+  width: 500px;
+  font: 400 16px/24px "Arial";
+  color: #445162;
 }
 
 .contacts-input-email {
-  
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 5px 10px 5px 10px;
+  width: 500px;
+  font: 400 16px/24px "Arial";
+  color: #445162;
 }
 
-.contatcs-textarea {
-  
+.contacts-textarea {
+  display: block;
+  width: 500px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 0 0 20px 0;
+  padding: 5px 10px 5px 10px;
+  resize: none;
+  font: 400 16px/24px "Arial";
+  color: #445162;
 }
 
 .contacts-button {
-  
+  display: block;
+  box-sizing: border-box;
+  width: 140px;
+  min-height: 40px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font: 700 16px/24px "Arial";
+  color: #445162;
+  text-transform: uppercase;
 }
 
 .contacts-links {
   width: 250px;
-  border: 1px solid black;
+  margin: 0 180px 0 50px;
+  float: right;
 }
 
 .contacts-skype-link {
   display: block;
   text-decoration: none;
   font: 400 16px/24px "Arial";
+  margin: 0 0 20px 0;
   color: #fff;
 }
 
@@ -381,12 +422,14 @@
   min-height: 26px;
   position: relative;
   bottom: -5px;
+  margin: 0 6px 0 0;
   background-image: url(../img/skypeicon.png);
 }
 
 .contacts-icq-link {
   display: block;
   text-decoration: none;
+  margin: 0 0 20px 0;
   font: 400 16px/24px "Arial";
   color: #fff;
 }
@@ -396,12 +439,16 @@
   display: inline-block;
   width: 26px;
   min-height: 26px;
+  position: relative;
+  bottom: -5px;
+  margin: 0 6px 0 0;
   background-image: url(../img/icqicon.png);
 }
 
 .contacts-email-link {
   display: block;
   text-decoration: none;
+  margin: 0 0 20px 0;
   font: 400 16px/24px "Arial";
   color: #fff;
 }
@@ -410,13 +457,17 @@
   content: "";
   display: inline-block;
   width: 22px;
-  height: 22px;
+  min-height: 22px;
+  position: relative;
+  bottom: -5px;
+  margin: 0 6px 0 0;
   background-image: url(../img/emailicon.png);
 }
 
 .contacts-phone-link {
   display: block;
   text-decoration: none;
+  margin: 0 0 30px 0;
   font: 400 16px/24px "Arial";
   color: #fff;
 }
@@ -424,5 +475,59 @@
 .contacts-phone-link::before {
   content: "";
   display:inline-block;
-  
+  width: 24px;
+  min-height: 23px;
+  position: relative;
+  bottom: -5px;
+  margin: 0 6px 0 0;
+  background-image: url(../img/phoneicon.png);
+}
+
+.twitter-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/twitter-icon.png);
+}
+
+.fb-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/fb-icon.png);
+}
+
+.in-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/in-icon.png);
+}
+
+.g-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/g-icon.png);
+}
+
+.youtube-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/youtube-icon.png);
+  background-repeat: no-repeat;
+}
+
+.copyright {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.copy{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font: 400 12px/26px "Arial";
+  color: #445162;
 }

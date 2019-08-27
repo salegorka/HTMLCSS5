@@ -247,22 +247,30 @@
 
 .buy-wraper {
   width: 100%;
-  border: 1px solid black;
+  padding: 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
 
 .buy-standart {
   width: 300px;
   background-color: #445162;
+  border-radius: 5px;
 }
 
 .buy-premium {
   width: 300px;
   background-color: #445162;
+  border-radius: 5px;
 }
 
 .buy-lux {
   width: 300px;
   background-color: #445162;
+  border-radius: 5px;
 }
 
 .header-buy {
@@ -271,6 +279,7 @@
   font: 400 24px/30px "Arial";
   color: #fff;
   margin: 0;
+  padding: 15px 0;
 }
 
 .price {
@@ -280,11 +289,14 @@
   font: 400 40px/30px "Arial";
   color: #445162;
   background-color: #fff;
-  margin: 0;
+  margin: 0 0 20px 0;
+  padding: 15px 0;
+  border: 2px solid #445162;
+  box-sizing: border-box;
 }
 
 .buy-list-options {
-  margin: 0;
+  margin: 0 0 20px 20px;
   padding: 0;
   list-style-position: inside;
   font: 400 14px/24px "Arial";
@@ -301,5 +313,116 @@
   border: 1px solid #fff;
   border-radius: 5px;
   padding: 12px 0;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
+}
+
+
+.footer {
+  width: 100%;
+}
+
+.contacts {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #445162;
+}
+
+.footer-header {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font: 400 30px/36px "Arial";
+  color: #fff;
+}
+
+.contatcs-wrapper {
+  
+}
+
+.contacts-form {
+  width: 500px;
+  border: 1px solid black;
+}
+
+.contacts-input-name {
+  
+}
+
+.contacts-input-email {
+  
+}
+
+.contatcs-textarea {
+  
+}
+
+.contacts-button {
+  
+}
+
+.contacts-links {
+  width: 250px;
+  border: 1px solid black;
+}
+
+.contacts-skype-link {
+  display: block;
+  text-decoration: none;
+  font: 400 16px/24px "Arial";
+  color: #fff;
+}
+
+.contacts-skype-link::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  min-height: 26px;
+  position: relative;
+  bottom: -5px;
+  background-image: url(../img/skypeicon.png);
+}
+
+.contacts-icq-link {
+  display: block;
+  text-decoration: none;
+  font: 400 16px/24px "Arial";
+  color: #fff;
+}
+
+.contacts-icq-link::before {
+  content: "";
+  display: inline-block;
+  width: 26px;
+  min-height: 26px;
+  background-image: url(../img/icqicon.png);
+}
+
+.contacts-email-link {
+  display: block;
+  text-decoration: none;
+  font: 400 16px/24px "Arial";
+  color: #fff;
+}
+
+.contacts-email-link::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url(../img/emailicon.png);
+}
+
+.contacts-phone-link {
+  display: block;
+  text-decoration: none;
+  font: 400 16px/24px "Arial";
+  color: #fff;
+}
+
+.contacts-phone-link::before {
+  content: "";
+  display:inline-block;
+  
 }

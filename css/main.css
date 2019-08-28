@@ -199,7 +199,7 @@
 
 .review-wrapper {
   float: left;
-  margin: 0 15px 25px 0;
+  margin: 0 10px 25px 0;
 }
 
 .review-wrapper::before {
@@ -207,16 +207,34 @@
   display: inline-block;
   width: 75px;
   min-height: 75px;
+  position: relative;
+  left: 10px;
+  bottom: 37px;
   background-image: url(../img/userpic.png);
-  margin: 0 12px 40px 0;
+}
+
+.review-wrapper-2 {
+  display: inline-block;
+  width: 500px;
+}
+
+.review-wrapper-2::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  position: relative;
+  right: -6px;
+  bottom: 63px;
+  border: 12px solid transparent;
+  border-right: 12px solid #ebebeb;
 }
 
 .review {
-  width: 483px;
-  min-height: 121px;
-  background-image: url(../img/bgreview.png);
+  width: 470px;
   box-sizing: border-box;
-  padding: 15px 15px 15px 30px;
+  background-color: #ebebeb;
+  padding: 15px 15px 15px 15px;
   display: inline-block;
 }
 

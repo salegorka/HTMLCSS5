@@ -198,33 +198,34 @@
 }
 
 .review-wrapper {
+  display: flex;
   float: left;
+  width: 580px;
   margin: 0 10px 25px 0;
 }
 
 .review-wrapper::before {
   content: "";
-  display: inline-block;
+  display: block;
   width: 75px;
   min-height: 75px;
-  position: relative;
-  left: 10px;
-  bottom: 37px;
   background-image: url(../img/userpic.png);
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .review-wrapper-2 {
-  display: inline-block;
+  display: flex;
+  width: 500px;
 }
 
 .review-wrapper-2::before {
   content: "";
-  display: inline-block;
+  display: block;
   width: 0;
   height: 0;
   position: relative;
-  right: -6px;
-  bottom: 63px;
+  top: 28px;
   border: 12px solid transparent;
   border-right: 12px solid #ebebeb;
 }

@@ -335,6 +335,15 @@
   outline: none;
 }
 
+.buy-button:hover {
+  color: #fff;
+  background-color: #445162;
+}
+
+.buy-button:active {
+  color: #445162;
+  background-color: #fff;
+}
 
 .footer {
   width: 100%;
@@ -424,6 +433,16 @@
   outline: none;
 }
 
+.contacts-button:hover {
+  color: #fff;
+  background-color: #445162;
+}
+
+.contacts-button:active {
+  color: #445162;
+  background-color: #fff;
+}
+
 .contacts-links {
   width: 250px;
   margin: 0 180px 0 50px;
@@ -506,40 +525,49 @@
   background-image: url(../img/phoneicon.png);
 }
 
+.contacts-social {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+}
+
+.social-icon {
+  background-image: url(../img/sociallinks.png);
+} 
+
 .twitter-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/twitter-icon.png);
+  background-position: -1px 0px;
 }
 
 .fb-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/fb-icon.png);
+  background-position: -50px 0px;
 }
 
 .in-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/in-icon.png);
+  background-position: -99px 0px;
 }
 
 .g-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/g-icon.png);
+  background-position: -149px 0px;
 }
 
 .youtube-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/youtube-icon.png);
-  background-repeat: no-repeat;
+  background-position: -198px 0px;
 }
 
 .copyright {

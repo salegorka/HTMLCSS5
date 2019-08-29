@@ -198,25 +198,43 @@
 }
 
 .review-wrapper {
+  display: flex;
   float: left;
-  margin: 0 15px 25px 0;
+  width: 580px;
+  margin: 0 10px 25px 0;
 }
 
 .review-wrapper::before {
   content: "";
-  display: inline-block;
+  display: block;
   width: 75px;
   min-height: 75px;
   background-image: url(../img/userpic.png);
-  margin: 0 12px 40px 0;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.review-wrapper-2 {
+  display: flex;
+  width: 500px;
+}
+
+.review-wrapper-2::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  position: relative;
+  top: 28px;
+  border: 12px solid transparent;
+  border-right: 12px solid #ebebeb;
 }
 
 .review {
-  width: 483px;
-  min-height: 121px;
-  background-image: url(../img/bgreview.png);
+  width: 470px;
   box-sizing: border-box;
-  padding: 15px 15px 15px 30px;
+  background-color: #ebebeb;
+  padding: 15px 15px 15px 15px;
   display: inline-block;
 }
 
@@ -229,4 +247,305 @@
 .review-author {
   font: 400 14px/18px "Arial";
   color: #989898;
+}
+
+.buy {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.buy-header {
+  width: 100%;
+  text-align: center;
+  font: 400 30px/36px "Arial";
+  color: #445161;
+}
+
+.buy-wraper {
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.buy-standart {
+  width: 300px;
+  background-color: #445162;
+  border-radius: 5px;
+}
+
+.buy-premium {
+  width: 300px;
+  background-color: #445162;
+  border-radius: 5px;
+}
+
+.buy-lux {
+  width: 300px;
+  background-color: #445162;
+  border-radius: 5px;
+}
+
+.header-buy {
+  width: 100%;
+  text-align: center;
+  font: 400 24px/30px "Arial";
+  color: #fff;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.price {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font: 400 40px/30px "Arial";
+  color: #445162;
+  background-color: #fff;
+  margin: 0 0 20px 0;
+  padding: 15px 0;
+  border: 2px solid #445162;
+  box-sizing: border-box;
+}
+
+.buy-list-options {
+  margin: 0 0 20px 20px;
+  padding: 0;
+  list-style-position: inside;
+  font: 400 14px/24px "Arial";
+  color: #fff;
+}
+
+.buy-button {
+  display: block;
+  background-color: #fff;
+  font: 700 18px/18px "Arial";
+  text-transform: uppercase;
+  color: #445162;
+  width: 260px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 12px 0;
+  margin: 0 auto 20px auto;
+}
+
+
+.footer {
+  width: 100%;
+}
+
+.contacts {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #445162;
+}
+
+.contacts::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer-header {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 0;
+  font: 400 30px/36px "Arial";
+  color: #fff;
+}
+
+.contacts-form {
+  width: 500px;
+  margin: 0 0 0 200px;
+  float: left;
+}
+
+.contacts-input-name {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 5px 10px 5px 10px;
+  width: 500px;
+  font: 400 16px/24px "Arial";
+  color: #445162;
+}
+
+.contacts-input-email {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 5px 10px 5px 10px;
+  width: 500px;
+  font: 400 16px/24px "Arial";
+  color: #445162;
+}
+
+.contacts-textarea {
+  display: block;
+  width: 500px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 0 0 20px 0;
+  padding: 5px 10px 5px 10px;
+  resize: none;
+  font: 400 16px/24px "Arial";
+  color: #445162;
+}
+
+.contacts-button {
+  display: block;
+  box-sizing: border-box;
+  width: 140px;
+  min-height: 40px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font: 700 16px/24px "Arial";
+  color: #445162;
+  text-transform: uppercase;
+}
+
+.contacts-links {
+  width: 250px;
+  margin: 0 180px 0 50px;
+  float: right;
+}
+
+.contacts-skype-link {
+  display: block;
+  text-decoration: none;
+  font: 400 16px/24px "Arial";
+  margin: 0 0 20px 0;
+  color: #fff;
+}
+
+.contacts-skype-link::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  min-height: 26px;
+  position: relative;
+  bottom: -5px;
+  margin: 0 6px 0 0;
+  background-image: url(../img/skypeicon.png);
+}
+
+.contacts-icq-link {
+  display: block;
+  text-decoration: none;
+  margin: 0 0 20px 0;
+  font: 400 16px/24px "Arial";
+  color: #fff;
+}
+
+.contacts-icq-link::before {
+  content: "";
+  display: inline-block;
+  width: 26px;
+  min-height: 26px;
+  position: relative;
+  bottom: -5px;
+  margin: 0 6px 0 0;
+  background-image: url(../img/icqicon.png);
+}
+
+.contacts-email-link {
+  display: block;
+  text-decoration: none;
+  margin: 0 0 20px 0;
+  font: 400 16px/24px "Arial";
+  color: #fff;
+}
+
+.contacts-email-link::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  min-height: 22px;
+  position: relative;
+  bottom: -5px;
+  margin: 0 6px 0 0;
+  background-image: url(../img/emailicon.png);
+}
+
+.contacts-phone-link {
+  display: block;
+  text-decoration: none;
+  margin: 0 0 30px 0;
+  font: 400 16px/24px "Arial";
+  color: #fff;
+}
+
+.contacts-phone-link::before {
+  content: "";
+  display:inline-block;
+  width: 24px;
+  min-height: 23px;
+  position: relative;
+  bottom: -5px;
+  margin: 0 6px 0 0;
+  background-image: url(../img/phoneicon.png);
+}
+
+.twitter-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/twitter-icon.png);
+}
+
+.fb-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/fb-icon.png);
+}
+
+.in-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/in-icon.png);
+}
+
+.g-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/g-icon.png);
+}
+
+.youtube-link {
+  display: inline-block;
+  width: 43px;
+  min-height: 42px;
+  background-image: url(../img/youtube-icon.png);
+  background-repeat: no-repeat;
+}
+
+.copyright {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.copy{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font: 400 12px/26px "Arial";
+  color: #445162;
 }

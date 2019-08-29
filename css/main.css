@@ -332,8 +332,18 @@
   border-radius: 5px;
   padding: 12px 0;
   margin: 0 auto 20px auto;
+  outline: none;
 }
 
+.buy-button:hover {
+  color: #fff;
+  background-color: #445162;
+}
+
+.buy-button:active {
+  color: #445162;
+  background-color: #fff;
+}
 
 .footer {
   width: 100%;
@@ -377,6 +387,7 @@
   width: 500px;
   font: 400 16px/24px "Arial";
   color: #445162;
+  outline: none;
 }
 
 .contacts-input-email {
@@ -389,6 +400,7 @@
   width: 500px;
   font: 400 16px/24px "Arial";
   color: #445162;
+  outline: none;
 }
 
 .contacts-textarea {
@@ -402,6 +414,7 @@
   resize: none;
   font: 400 16px/24px "Arial";
   color: #445162;
+  outline: none;
 }
 
 .contacts-button {
@@ -417,6 +430,17 @@
   font: 700 16px/24px "Arial";
   color: #445162;
   text-transform: uppercase;
+  outline: none;
+}
+
+.contacts-button:hover {
+  color: #fff;
+  background-color: #445162;
+}
+
+.contacts-button:active {
+  color: #445162;
+  background-color: #fff;
 }
 
 .contacts-links {
@@ -501,40 +525,49 @@
   background-image: url(../img/phoneicon.png);
 }
 
+.contacts-social {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+}
+
+.social-icon {
+  background-image: url(../img/sociallinks.png);
+} 
+
 .twitter-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/twitter-icon.png);
+  background-position: -1px 0px;
 }
 
 .fb-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/fb-icon.png);
+  background-position: -50px 0px;
 }
 
 .in-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/in-icon.png);
+  background-position: -99px 0px;
 }
 
 .g-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/g-icon.png);
+  background-position: -149px 0px;
 }
 
 .youtube-link {
-  display: inline-block;
-  width: 43px;
+  display: block;
+  width: 42px;
   min-height: 42px;
-  background-image: url(../img/youtube-icon.png);
-  background-repeat: no-repeat;
+  background-position: -198px 0px;
 }
 
 .copyright {
